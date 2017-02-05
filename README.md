@@ -1,7 +1,8 @@
 # ReactNativeTest
 Proof of concept for Akicondroid
 
-### Windows Dependencies
+### Dependencies
+NodeJS
 Java Development Kit
 Android Studio (+ Android SDK a Android virtualization stuff (installed using AS))
 
@@ -10,6 +11,11 @@ ANDROID_HOME %AppData%\Local\Android\sdk
 JAVA_HOME Path to Java Development Kit (e.g. C:\Program Files\Java\jdk1.8.0_121)
 PATH: add path to Android Debug Bridge (e.g. %AppData%\Local\Android\Sdk\platform-tools)
 
+### Install App
+Run in repository root (the place where package.json is located):
+```
+npm install
+```
 
 ### Develop using Android Studio
 install, run an debug in virtual Android machine
