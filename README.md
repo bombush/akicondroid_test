@@ -2,9 +2,14 @@
 Proof of concept for Akicondroid
 
 ### Dependencies
-NodeJS
-Java Development Kit
-Android Studio (+ Android SDK a Android virtualization stuff (installed using AS))
+- Python 2, NodeJS
+```
+# install using Chocolatey
+choco install nodejs.install
+choco install python2
+```
+- Java Development Kit
+- Android Studio (+ Android SDK a Android virtualization stuff (installed using AS))
 
 #### Environment variables:
 ANDROID_HOME %AppData%\Local\Android\sdk
